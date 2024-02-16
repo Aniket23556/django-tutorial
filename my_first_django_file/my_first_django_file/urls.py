@@ -40,6 +40,18 @@ Including another URLconf
 # Assignment 2 Views in Views.py file and import view to urls file
 # Modify your project by creating the same views in views.py file and make the necessary changes to run the project.
 
+# from django.contrib import admin
+# from django.urls import include, path
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('', include('akitir.urls')),
+# ]
+
+
+# Assignment 3 Templates
+# Create templates for the views created in your project and use them in the views.
+
 from django.contrib import admin
 from django.urls import include, path
 
